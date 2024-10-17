@@ -4,14 +4,16 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [Click here!]()
-- Live Site URL: [Click here!]()
+- Solution URL: [Click here!](https://github.com/logic23dev/ping-coming-soon-page)
+- Live Site URL: [Click here!](https://logic23dev.github.io/ping-coming-soon-page/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Java Script
 - Flexbox
+- Font Awesome
 - Mobile-first workflow
 
 ### Author
