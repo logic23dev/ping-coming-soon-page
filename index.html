@@ -22,5 +22,62 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <img
+        src="images/logo.svg"
+        width="86"
+        height="26"
+        alt="company logotype"
+      />
+    </header>
+    <main class="main">
+      <section class="text-content">
+        <h1>We are launching <em>soon!</em></h1>
+        <p>Subscribe and get notified</p>
+      </section>
+      <form id="form" class="form" action="/" autocomplete="on" novalidate>
+        <div class="email-container">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            aria-describedby="email-error"
+            aria-invalid="false"
+            placeholder="Your email address..."
+          />
+          <span id="email-error" class="error-message" role="alert"></span>
+        </div>
+        <button type="submit">Notify Me</button>
+      </form>
+      <img
+        src="images/illustration-dashboard.png"
+        width="1280"
+        height="782"
+        alt=""
+        aria-hidden="true"
+      />
+    </main>
+    <footer class="footer">
+      <ul class="social-links">
+        <li>
+          <a href="#" aria-label="Facebook"
+            ><i class="fa-brands fa-facebook-f fa-fw" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" aria-label="Twitter"
+            ><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" aria-label="Instagram"
+            ><i class="fa-brands fa-instagram fa-fw" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
 </html>
